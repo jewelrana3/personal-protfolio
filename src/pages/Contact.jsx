@@ -3,7 +3,7 @@
 const Contact = () => {
     return (
         <section className="contact mt-44">
-            <h2 className="text-5xl text-center">Contact <span>Me !</span></h2>
+            <h2 className="text-5xl text-center mb-12">Contact <span>Me !</span></h2>
             <form action="#">
                 <div className="input-box">
                     <div className="input-falied">
@@ -34,7 +34,12 @@ const Contact = () => {
                 </div>
 
             </form>
+           
+
         </section>
+
+        // footer
+       
     );
 };
 
