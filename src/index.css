@@ -255,13 +255,40 @@ span {
   margin-left: 2rem;
 }
 
+.education-box .education-content::before {
+  position: absolute;
+  content: '';
+  top: 0;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  background: var(--main-color);
+  left: -3.1rem;
+}
+
 .education-content .content {
   position: relative;
   padding: 1.5rem;
   border: .2rem solid var(--main-color);
   border-radius: 5px;
   margin-bottom: 2rem;
+  overflow: hidden;
+}
 
+.education-content .content::before {
+  content: '';
+  position: absolute;
+  background: var(--secend-bg-color);
+  width: 0;
+  height: 100%;
+  top: 0;
+  left: 0;
+  transition: 1s;
+  z-index: -1;
+}
+
+.education-content .content:hover::before {
+  width: 100%;
 }
 
 .education-content .content .calender {
@@ -271,17 +298,187 @@ span {
 
 .education-content .content .year {
   display: flex;
- 
+
   font-size: 1.3rem;
   color: var(--main-color);
   padding-bottom: 1rem;
 
 }
-.education-content .content h3{
- font-size: 2rem;
+
+.education-content .content h3 {
+  font-size: 2rem;
 }
-.education-content .content p{
- font-size:1.5rem;
- padding-top: .5rem;
-color:darkgray
+
+.education-content .content p {
+  font-size: 1.5rem;
+  padding-top: .5rem;
+  color: darkgray
+}
+
+/* skills section */
+.skills {
+  padding: 0 9%;
+  min-height: auto;
+  background: var(--secend-bg-color);
+  padding-bottom: 7rem;
+}
+
+.skills .skills-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5rem;
+}
+
+.skills-col {
+  flex: 1 1 40rem;
+}
+
+.skill-box .skill-content {
+  position: relative;
+  padding: .5rem 1.4rem;
+  border-radius: 4px;
+  border: .2rem solid var(--main-color);
+
+  z-index: 1;
+}
+
+.skill-box .skill-content::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: var(--bg-color);
+  width: 0;
+  height: 100%;
+  z-index:-1;
+  transition: 1s;
+}
+
+.skill-box .skill-content:hover::before {
+  width: 100%;
+}
+
+.skill-content .progess {
+  padding: 1rem 0;
+}
+
+.skill-content .progess h3 {
+  font-size: 1.7rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.skill-content .progess h3 span {
+  color: var(--text-color)
+}
+
+.skill-content .progess .bar {
+  border-radius: 5px;
+  height: 2.4rem;
+  padding: .5rem;
+  border: .2rem solid var(--main-color);
+  margin: 1rem 0;
+}
+
+.skill-content .progess .bar span {
+  display: block;
+  height: 100%;
+  background: var(--main-color);
+}
+
+.skills-col:nth-child(1) .skill-content .progess:nth-child(1) .bar span {
+  width: 90%;
+}
+
+.skills-col:nth-child(1) .skill-content .progess:nth-child(2) .bar span {
+  width: 80%;
+}
+
+.skills-col:nth-child(1) .skill-content .progess:nth-child(3) .bar span {
+  width: 70%;
+}
+
+.skills-col:nth-child(1) .skill-content .progess:nth-child(4) .bar span {
+  width: 75%;
+}
+
+.skills-col:nth-child(1) .skill-content .progess:nth-child(5) .bar span {
+  width: 60%;
+}
+
+.skills-col:nth-child(2) .skill-content .progess:nth-child(1) .bar span {
+  width: 60%;
+}
+
+.skills-col:nth-child(2) .skill-content .progess:nth-child(2) .bar span {
+  width: 80%;
+}
+
+/* contact section */
+.contact{
+  min-height: auto;
+  padding-bottom: 7rem;
+  padding: 0 9%;
+}
+.contact form{
+  width:70rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.contact form .input-box{
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.contact form .focus{
+  position: absolute;
+  top:0;
+  left:0;
+  width:0;
+  height: 100%;
+  background:var(--secend-bg-color);
+  border-radius: .7rem;
+  transition: .3s;
+  z-index: -1;
+}
+.contact form .input-box .input-falied input:focus~.focus,
+.contact form .input-box .input-falied input:valid~.focus,
+.contact form .textarea-input textarea:focus~.focus,
+.contact form .textarea-input textarea:valid~.focus
+{
+  width: 100%;
+}
+
+.contact form .input-box .input-falied{ 
+ position: relative;
+ width: 49%;
+ margin: .8rem 0;
+}
+.contact form .input-box .input-falied input,
+.contact form .textarea-input textarea{ 
+ width:100%;
+ height:100%;
+ padding: 1.5rem;
+ font-size: 1.6rem;
+ color: var(--main-color);
+ background: transparent;
+ border-radius: .6rem;
+ border: .2rem solid var(--main-color);
+}
+.contact form .input-box .input-falied input::placeholder,
+.contact form .textarea-input textarea::placeholder{
+  color: var(--text-color);
+} 
+.contact form .textarea-input{
+  position: relative;
+  margin: .8rem 0 2.7rem;
+  display: flex;
+}
+.contact form .textarea-input textarea{
+  resize: none;
+}
+.contact form .btn-box.btns .btn{
+  cursor: pointer;
 }
