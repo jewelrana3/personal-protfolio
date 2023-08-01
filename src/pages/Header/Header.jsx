@@ -8,8 +8,8 @@ const Header = () => {
         
         <nav className="navber text-2xl ">
             <Link className="active">Home</Link>
-            <Link>About</Link>
-            <Link>Project</Link>
+            <Link to='/about'>About</Link>
+            <Link to='/education'>Education</Link>
             <Link>Contact</Link>
         </nav>
 
