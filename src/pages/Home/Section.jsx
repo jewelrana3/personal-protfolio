@@ -19,21 +19,21 @@ const Section = () => {
                         <button className="btn">Hire me</button>
                         <button className="btn">Let's talk</button>
                     </div>
+                    <div className="home-icon mt-32">
+                        <Link> <ImFacebook /></Link>
+                        <Link> <FiGithub /></Link>
+                        <Link> <FaLinkedinIn /></Link>
 
+                    </div>
                 </div>
-                <div className="home-icon">
-                    <Link> <ImFacebook /></Link>
-                    <Link> <FiGithub /></Link>
-                    <Link> <FaLinkedinIn /></Link>
-                  
-                </div>
-                <div className="imgHover">
 
-                </div>
-             
+                {/* <div className="imgHover">
+
+                </div> */}
+
             </section>
-           
-           
+
+
         </>
     );
 };
