@@ -63,7 +63,7 @@ nav a {
 }
 
 
-.home-content .text-animate h3{
+.home-content .text-animate h2{
   font-size: 3.2rem;
   font-weight: 700;
   color: transparent;
@@ -71,9 +71,11 @@ nav a {
   background-image: linear-gradient(var(--main-color),var(--main-color));
   background-repeat: no-repeat;
   -webkit-background-clip: text;
-  background-position: 0,0;
+  background-position:0 0;
+  animation: homeBgText 5s linear infinite;
+  animation-delay: 2s;
 }
-.home-content .text-animate h3::before{
+.home-content .text-animate h2::before{
   content: '';
   position: absolute;
   top:19rem;
@@ -82,6 +84,8 @@ nav a {
   height:10%;
   border-right: 2px solid var(--main-color);
   z-index:-1;
+  animation: homeCursorText 5s linear infinite;
+  animation-delay: 2s;
 }
 
 .home p {
@@ -674,4 +678,27 @@ span {
     flex-direction: column;
     text-align: center;
   }
+}
+
+/* keyframse animation */
+@keyframes homeBgText{
+  0%,10%,100%{
+    background-position:0 0 ;
+  }
+  65%,85%{
+    background-position:30rem 0;
+  }
+}
+
+@keyframes homeCursorText{
+  0%,10%,100%{
+    width: 0;
+  }
+  65%,78%,85%{
+    width: 21.5%;
+    opacity: 1;
+}
+  75%,81%{
+    opacity: 0;
+} 
 }

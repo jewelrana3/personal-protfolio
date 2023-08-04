@@ -11,7 +11,7 @@ const Section = () => {
                 <div className="home-content">
                     <h1 className="text-6xl font-bold ">Hi,I'm <span>Jewel Rana</span></h1>
                     <div className="text-animate ">
-                        <h3>Fronted Developer</h3>
+                        <h2>Fronted Developer</h2>
                     </div>
                     <p className="text-2xl">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum quidem, odit atque optio ut facere nobis error, illo sint at alias sit repellat cum praesentium ex reprehenderit non, ea omnis?</p>
 
