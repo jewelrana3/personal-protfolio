@@ -11,22 +11,22 @@ const Education = () => {
                         <div className="education-content">
                         <div className='content'>
                                 <div className="year"><SlCalender className='calender' />2020-2021</div>
-                                <h3>Honours Degree</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius rerum ullam quos aut laborum temporibus doloremque. Voluptas doloribus quasi minus laborum veniam neque harum, numquam dolore animi, facere quis deleniti?</p>
+                                <h3>SSC</h3>
+                              <p>SSC education: Secondary school certificate at 16. Core subjects, critical thinking, career opportunities. Important academic milestone</p>
+                            </div>
+                        </div>
+                        <div className="education-content">
+                        <div className='content'>
+                                <div className="year"><SlCalender className='calender' />2020-2021</div>
+                                <h3>HSC</h3>
+                               <p>HSC: Higher Secondary Certificate, age 18. Final stage of secondary education. College/university admission prerequisite, vital for future opportunities</p>
                             </div>
                         </div>
                         <div className="education-content">
                         <div className='content'>
                                 <div className="year"><SlCalender className='calender' />2020-2021</div>
                                 <h3>Honours Degree</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius rerum ullam quos aut laborum temporibus doloremque. Voluptas doloribus quasi minus laborum veniam neque harum, numquam dolore animi, facere quis deleniti?</p>
-                            </div>
-                        </div>
-                        <div className="education-content">
-                        <div className='content'>
-                                <div className="year"><SlCalender className='calender' />2020-2021</div>
-                                <h3>Honours Degree</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius rerum ullam quos aut laborum temporibus doloremque. Voluptas doloribus quasi minus laborum veniam neque harum, numquam dolore animi, facere quis deleniti?</p>
+                               <p>BBA education: Bachelor of Business Administration. A three-year undergraduate program. Covers essential business disciplines like finance, marketing, management. Develops leadership, analytical, and decision-making skills. Ideal for pursuing a career in business and management</p>
                             </div>
                         </div>
                     </div>
@@ -37,22 +37,22 @@ const Education = () => {
                         <div className="education-content">
                             <div className='content'>
                                 <div className="year "><SlCalender className='calender' />2020-2021</div>
-                                <h3>Honours Degree</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius rerum ullam quos aut laborum temporibus doloremque. Voluptas doloribus quasi minus laborum veniam neque harum, numquam dolore animi, facere quis deleniti?</p>
+                                <h3>Web Design</h3>
+                               <p>Web design: create visually appealing, user-friendly websites with minimalism, readable fonts, contrast, white space, consistency, hierarchy, responsive design, accessibility, appropriate line length, and alignment for a positive user experience.</p>
                             </div>
                         </div>
                         <div className="education-content">
                         <div className='content'>
                                 <div className="year"><SlCalender className='calender' />2020-2021</div>
-                                <h3>Honours Degree</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius rerum ullam quos aut laborum temporibus doloremque. Voluptas doloribus quasi minus laborum veniam neque harum, numquam dolore animi, facere quis deleniti?</p>
+                                <h3>Web Development</h3>
+                              <p>Web development: Building, designing, and maintaining websites. Front-end, back-end, databases. Programming, performance, security, and user experience.</p>
                             </div>
                         </div>
                         <div className="education-content">
                         <div className='content'>
                                 <div className="year"><SlCalender className='calender' />2020-2021</div>
-                                <h3>Honours Degree</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius rerum ullam quos aut laborum temporibus doloremque. Voluptas doloribus quasi minus laborum veniam neque harum, numquam dolore animi, facere quis deleniti?</p>
+                                <h3>Programming Hero</h3>
+                                <p>Join our web development course. Learn front-end (HTML, CSS, JS) and back-end ( Node.js), databases, frameworks, and more. Start your web development journey now!</p>
                             </div>
                         </div>
                     </div>

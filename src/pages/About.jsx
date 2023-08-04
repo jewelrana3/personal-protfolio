@@ -11,7 +11,7 @@ const About = () => {
 
         <div className="about-content text-center">
             <h3 className="text-4xl">Fronted Developer</h3>
-            <p className="text-2xl">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et necessitatibus harum animi magnam iste iusto praesentium quisquam assumenda voluptates ipsum id dolor, incidunt unde non. Saepe commodi ut consequuntur reiciendis!</p>
+            <p className="text-2xl">Frontend Developer: Designs and develops user interfaces. Expertise in HTML, CSS, JavaScript. Creates visually appealing and interactive websites. Collaborates with designers and back-end developers. Ensures seamless user experiences</p>
         </div>
         <div className="btn-box btns ">
             <button className="btn">Read More</button>

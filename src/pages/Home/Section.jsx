@@ -11,7 +11,7 @@ const Section = () => {
                 <div className="home-content">
                     <h1 className="text-6xl font-bold ">Hi,I'm <span>Jewel Rana</span></h1>
                     <div className="text-animate ">
-                        <h2>Fronted Developer</h2>
+                        <h2>Frontend Developer</h2>
                     </div>
                     <p className="text-2xl">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum quidem, odit atque optio ut facere nobis error, illo sint at alias sit repellat cum praesentium ex reprehenderit non, ea omnis?</p>
 
@@ -20,16 +20,14 @@ const Section = () => {
                         <button className="btn">Let's talk</button>
                     </div>
                     <div className="home-icon mt-32">
-                        <Link> <ImFacebook /></Link>
-                        <Link> <FiGithub /></Link>
-                        <Link> <FaLinkedinIn /></Link>
+                        <Link to='https://web.facebook.com/profile.php?id=100073733827614' target='_blank'> <ImFacebook /></Link>
+                        <Link to='https://github.com/jewelrana3' target='_blank'> <FiGithub /></Link>
+                        <Link to='https://www.linkedin.com/in/md-jewel-rana-585bb2251/' target='_blank'> <FaLinkedinIn /></Link>
 
                     </div>
                 </div>
 
-                {/* <div className="imgHover">
-
-                </div> */}
+               
 
             </section>
 
