@@ -1,42 +1,31 @@
 import { Link } from "react-router-dom";
-import { AiOutlineMenu } from 'react-icons/ai';
+import {useRef} from 'react'
+import {  FaBars,FaTimes } from 'react-icons/fa'
 
 const Header = () => {
+    const navRef = useRef();
 
-
-    // <div className="flex nav">
-
-    //     <li className="text-white one text-2xl">
-    //         <Link to="/">Home</Link>
-    //     </li>
-    //     <li className="text-white text-2xl">
-    //         <Link to="/about">About</Link>
-    //     </li>
-    //     <li className="text-white text-2xl">
-    //         <Link to="/education">Education</Link>
-    //     </li>
-    //     <li className="text-white text-2xl">
-    //         <Link to="/skills">Skills </Link>
-    //     </li>
-    //     <li className="text-white text-2xl">
-    //         <Link to="/contact">Contact </Link>
-    //     </li>
-
-
-    // </div>
+    const showNavber = () =>{
+        navRef.current.classList.toggle('responsive_nav')
+    }
     return (
-        <header style={{ padding: '8px 9%' }} className="header fixed top-0 left-0 z-10  w-full flex justify-between items-center bg-yellow-500">
-            <Link className="text-3xl font-semibold text-white ">jobewel</Link>
-            <div className="bx bx-menu" id='menu-icon'><AiOutlineMenu></AiOutlineMenu></div>
-            <nav className="navber text-2xl">
-               
-                    <Link className="active">Home</Link>
-                    <Link to='/about'>About</Link>
-                    <Link to='/education'>Education</Link>
-                    <Link to='/skills'>Skills</Link>
-                    <Link to='/contact'>Contact</Link>
-            </nav>
+        <header style={{ padding: '8px 9%' }} className="header fixed top-0 left-0 z-10  w-full flex justify-between items-center ">
+            <Link className="text-3xl mt-8 font-semibold text-white ">jobewel</Link>
 
+            {/* <div><i className='bx bx-menu' id='menu-icon'></i></div> */}
+            <nav ref={navRef} className="">
+                <Link className="active">Home</Link>
+                <Link to='/about'>About</Link>
+                <Link to='/education'>Education</Link>
+                <Link to='/skills'>Skills</Link>
+                <Link to='/contact'>Contact</Link>
+                <button className="nav-btn nav-close-btn" onClick={showNavber}>
+                    <FaTimes />
+                </button>
+            </nav>
+            <button className="nav-btn" onClick={showNavber}>
+                <FaBars />
+            </button>
         </header>
         //     <div className="navbar">
         //         <div className="navbar-start">
