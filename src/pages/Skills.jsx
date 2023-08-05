@@ -53,7 +53,6 @@ const Skills = () => {
                     </div>
                 </div> */}
                 <div className="container">
-
                     <div className="skills-col">
                         <h3 className="text-4xl mb-8">Codeing Skills</h3>
                         <div className="skills-row">
@@ -96,8 +95,8 @@ const Skills = () => {
                         <div className="skills-row">
                             <div className="skill-box">
                                 <span className="title">Web Design</span>
-                                <div className="skill-bar design">
-                                    <div className="skill-per">
+                                <div className="skill-bar ">
+                                    <div className="skill-per design">
                                         <span className="tooltip">60%</span>
                                     </div>
                                 </div>
