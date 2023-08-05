@@ -3,10 +3,19 @@ import { ImFacebook } from 'react-icons/im';
 import { FiGithub } from 'react-icons/fi';
 import { FaLinkedinIn } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
+import PageTitle from '../../components/PageTitle';
+import { Helmet } from 'react-helmet';
+
+
+
 
 const Section = () => {
+  
     return (
         <>
+       <Helmet>
+        <title>Protfolio-Home</title>
+       </Helmet>
             <section style={{}} className="home mt-64" id="home">
                 <div className="home-content">
                     <h1 className="text-6xl font-bold ">Hi,I'm <span>Jewel Rana</span></h1>
@@ -27,7 +36,7 @@ const Section = () => {
                     </div>
                 </div>
 
-               
+
 
             </section>
 

@@ -22,7 +22,7 @@ const Header = () => {
                     <NavLink to='/education'>Education</NavLink>
                     <NavLink to='/skills'>Skills</NavLink>
                     <NavLink to='/contact'>Contact</NavLink>
-                    <NavLink to='https://drive.google.com/file/d/1VGgW5CI5S9nPOH8X-T3ve2QZktCJmFw8/view?usp=sharing' target="_blank">Resume Download</NavLink>
+                    <NavLink to='https://drive.google.com/file/d/1vV5T4zY678x_jDQRFMiyZCeboCNUCcBu/view?usp=sharing' target="_blank">Resume Download</NavLink>
                     <button className="nav-btn nav-close-btn" onClick={showNavber}>
                         <FaTimes />
                     </button>

@@ -1,9 +1,14 @@
 import { AiOutlineArrowUp } from 'react-icons/ai';
 import { Link } from 'react-router-dom';
+import PageTitle from '../components/PageTitle';
+
+
 
 const Contact = () => {
+
     return (
         <>
+        <PageTitle title='Protfolio-Contact' />
             <section className="contact  mt-44" id='contact'>
                 <h2 className="text-5xl text-center mb-12">Contact <span>Me !</span></h2>
                 <form action="#">
