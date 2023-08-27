@@ -67,7 +67,7 @@ nav a.active {
 }
 
 .home-content .text-animate h2 {
-  font-size: 3.2rem;
+  font-size: 3.1rem;
   font-weight: 700;
   color: transparent;
   -webkit-text-stroke: .7px var(--main-color);
@@ -83,7 +83,8 @@ nav a.active {
   content: '';
   position: absolute;
   top: 20.4rem;
-  left: 12rem;
+  left: 12.2rem;
+
   width: 0;
   height: 6%;
   border-right: 2px solid var(--main-color);

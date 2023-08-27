@@ -8,6 +8,7 @@ import About from "../pages/About";
 import Education from "../pages/Education";
 import Skills from "../pages/Skills";
 import Contact from "../pages/Contact";
+import ErrorPage from "../errorPage";
 
 
 
@@ -15,6 +16,7 @@ const router = createBrowserRouter([
     {
         path: '/',
         element: <Main></Main>,
+        errorElement:<ErrorPage></ErrorPage>,
         children: [
            {
             path:'/',
