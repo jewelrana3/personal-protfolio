@@ -11,18 +11,18 @@ const Header = () => {
     return (
         <header style={{ padding: '8px 9%' }} className="header fixed top-0 left-0 z-10  w-full flex justify-between">
             <div className="mr-96">
-                <NavLink className="text-3xl mt-8 font-semibold text-white ">jobewel</NavLink>
+                <NavLink className="text-3xl mt-8 font-semibold text-white ">Jobewel</NavLink>
             </div>
 
             {/* <div><i className='bx bx-menu' id='menu-icon'></i></div> */}
          
-                <nav ref={navRef} className="lg:-mr-96">
+                <nav ref={navRef} className="lg:-mr-64">
                     <NavLink to='/'>Home</NavLink>
                     <NavLink to='/about'>About</NavLink>
+                    <NavLink to='/project'>Project</NavLink>
                     <NavLink to='/education'>Education</NavLink>
                     <NavLink to='/skills'>Skills</NavLink>
                     <NavLink to='/blog'>Blogs</NavLink>
-                    <NavLink to='/contact'>Contact</NavLink>
                     <NavLink to='/contact'>Contact</NavLink>
                     <NavLink to='https://drive.google.com/file/d/1vvNmfnTyhev-jMMw0Xp73CHNWwFBobAT/view?usp=sharing' target="_blank">Resume Download</NavLink>
                     <button className="nav-btn nav-close-btn" onClick={showNavber}>

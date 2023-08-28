@@ -8,7 +8,8 @@ import About from "../pages/About";
 import Education from "../pages/Education";
 import Skills from "../pages/Skills";
 import Contact from "../pages/Contact";
-import ErrorPage from "../errorPage";
+import Project from "../pages/Home/Project";
+
 
 
 
@@ -16,7 +17,6 @@ const router = createBrowserRouter([
     {
         path: '/',
         element: <Main></Main>,
-        errorElement:<ErrorPage></ErrorPage>,
         children: [
            {
             path:'/',
@@ -29,6 +29,10 @@ const router = createBrowserRouter([
            {
             path:'education',
             element:<Education></Education>
+           },
+           {
+            path:'project',
+            element:<Project />
            },
            {
             path:'skills',

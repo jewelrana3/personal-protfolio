@@ -31,6 +31,7 @@ header {
   justify-content: center;
   align-items: center;
   height: 80px;
+  background: #081b29;
 }
 
 header .nav-btn {
@@ -57,7 +58,7 @@ header .nav-btn {
 }
 
 nav a {
-  margin-left: 2.5em;
+  margin-left: 2em;
   font-size: 1.7rem;
   font-weight: 500;
 }
