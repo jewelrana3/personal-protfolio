@@ -14,7 +14,7 @@ const About = () => {
 
                 <div className="about-content text-center">
                     <h3 className="text-4xl">Full Stack Developer</h3>
-                    <p className="text-2xl">Frontend Developer: Designs and develops user interfaces. Expertise in HTML, CSS, JavaScript,React. Creates visually appealing and interactive websites. Collaborates with designers and back-end developers. Ensures seamless user experiences</p>
+                    <p className="text-2xl">Full Stack Developer: Designs and develops user interfaces. Expertise in HTML, CSS, JavaScript,React. Creates visually appealing and interactive websites. Collaborates with designers and back-end developers. Ensures seamless user experiences</p>
                 </div>
                 <div className="btn-box btns ">
                     <button className="btn">Read More</button>
