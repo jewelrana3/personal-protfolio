@@ -271,6 +271,10 @@ span {
 .btn-box.btns button::before {
   background: var(--secend-bg-color);
 }
+/* my project */
+.juyel{
+  flex: 1 1 40rem;
+}
 
 /* education section */
 .education {
@@ -639,6 +643,10 @@ span {
     top: 2rem;
     right: 2rem;
   }
+   .juyel{
+    display: flex;
+   
+  }
 
   @keyframes homeCursorText {
 
@@ -663,6 +671,11 @@ span {
 
 
 }
+@media (max-width:1040px){
+  .education-col button{
+    margin-bottom: 5px;
+  }
+}
 
 @media (max-width:900px) {
   .home-content .text-animate h2::before {
@@ -670,12 +683,20 @@ span {
     border-right: 0;
 
   }
+  .education-col button{
+    margin-bottom: 5px;
+  }
+ 
 }
 
 
 @media (max-width:768px) {
   .header {
     background: var(--bg-color);
+  }
+  section .juyel{
+    display: flex;
+    flex-direction: column;
   }
 
   .navbar {
@@ -691,7 +712,9 @@ span {
   .home-content .text-animate h2::before {
     border-right: 0;
   }
-
+  .education-col button{
+    margin-bottom: 5px;
+  }
 
 
 
@@ -714,6 +737,9 @@ span {
     display: block;
  
   }
+  .education-col button{
+    margin-bottom: 5px;
+  }
   .skills-col{
     margin:0 0 8rem 0;
   }
@@ -732,6 +758,9 @@ span {
 
   .contact form .input-box .input-falied {
     width: 100%;
+  }
+  .education-col button{
+    margin-bottom: 5px;
   }
 
   .footer {
@@ -759,6 +788,9 @@ span {
 
   .home-content .text-animate h2::before {
     border-right: 0;
+  }
+  .education-col button{
+    margin-bottom: 5px;
   }
 }
 
