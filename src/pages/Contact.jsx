@@ -4,10 +4,14 @@ import PageTitle from "../components/PageTitle";
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 
+
 const Contact = () => {
+
   const form = useRef();
+
   const sendEmail = (e) => {
     e.preventDefault();
+   form.current.value="";
 
     emailjs
       .sendForm(
@@ -32,7 +36,7 @@ const Contact = () => {
         <h2 className="text-5xl text-center mb-12">
           Contact <span>Me !</span>
         </h2>
-        <form ref={form} onSubmit={sendEmail}>
+        <form ref={form} onSubmit={sendEmail} >
           <div className="input-box">
             <div className="input-falied">
               <input
@@ -89,7 +93,7 @@ const Contact = () => {
             <span className="focus"></span>
           </div>
           <div className="btn-box btns mb-11">
-            <button type="submit" className="btn">
+            <button  type="submit" className="btn">
               Submit
             </button>
           </div>
