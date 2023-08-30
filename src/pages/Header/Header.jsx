@@ -24,7 +24,7 @@ const Header = () => {
                     <NavLink to='/skills'>Skills</NavLink>
                     <NavLink to='/blog'>Blogs</NavLink>
                     <NavLink to='/contact'>Contact</NavLink>
-                    <NavLink to='https://drive.google.com/file/d/1vvNmfnTyhev-jMMw0Xp73CHNWwFBobAT/view?usp=sharing' target="_blank">Resume Download</NavLink>
+                    <NavLink to='https://drive.google.com/file/d/1npZv3kkImCb_dxFC-wZVKINnzLttg-P-/view?usp=sharing' target="_blank">Resume Download</NavLink>
                     <button className="nav-btn nav-close-btn" onClick={showNavber}>
                         <FaTimes />
                     </button>
