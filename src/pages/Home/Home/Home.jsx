@@ -1,4 +1,4 @@
-import { useLocation } from "react-router-dom";
+// import { useLocation } from "react-router-dom";
 import About from "../../About";
 import Contact from "../../Contact";
 import Education from "../../Education";
@@ -8,8 +8,8 @@ import Section from "../Section";
 
 
 const Home = () => {
-    const location = useLocation();
-    const path = location.pathname.includes('/')
+    const pathname = window.location.pathname;
+    const path = pathname.includes('/');
     return (
 
         <div>
