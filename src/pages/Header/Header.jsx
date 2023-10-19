@@ -22,9 +22,9 @@ const Header = () => {
                     <NavLink to='/project'>Project</NavLink>
                     <NavLink to='/education'>Education</NavLink>
                     <NavLink to='/skills'>Skills</NavLink>
-                    <NavLink to='/blog'>Blogs</NavLink>
+                 
                     <NavLink to='/contact'>Contact</NavLink>
-                    <NavLink to='https://drive.google.com/file/d/1roukgvEZ8vuvvc6lfTe57fUGAMunyhIT/view?usp=sharing' target="_blank">Resume Download</NavLink>
+                    <NavLink to='https://drive.google.com/file/d/1o3jlYYJZoet-QfyF1eP5eBRVXkaBjFLi/view?usp=sharing' target="_blank">Resume Download</NavLink>
                     <button className="nav-btn nav-close-btn" onClick={showNavber}>
                         <FaTimes />
                     </button>

@@ -9,7 +9,7 @@ import Education from "../pages/Education";
 import Skills from "../pages/Skills";
 import Contact from "../pages/Contact";
 import Project from "../pages/Home/Project";
-import Blog from "../pages/Home/Blog";
+
 
 
 
@@ -35,10 +35,7 @@ const router = createBrowserRouter([
             path:'project',
             element:<Project />
            },
-           {
-            path:'blog',
-            element:<Blog />
-           },
+          
            {
             path:'skills',
             element:<Skills></Skills>

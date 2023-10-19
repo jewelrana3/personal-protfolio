@@ -1,3 +1,4 @@
+import { useLocation } from "react-router-dom";
 import About from "../../About";
 import Contact from "../../Contact";
 import Education from "../../Education";
@@ -7,15 +8,19 @@ import Section from "../Section";
 
 
 const Home = () => {
+    const location = useLocation();
+    const path = location.pathname.includes('/')
     return (
+
         <div>
             <Section></Section>
-            <About></About>
-            <Project></Project>
-            <Education></Education>
-            <Skills></Skills>
-            <Contact></Contact>
+            {path || <About></About>}
+            {path || <Project></Project>}
+            {path || <Education></Education>}
+            {path || <Skills></Skills>}
+            {path || <Contact></Contact>}
         </div>
+
     );
 };
 

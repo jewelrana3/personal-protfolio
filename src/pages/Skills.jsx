@@ -1,9 +1,10 @@
-import PageTitle from "../components/PageTitle";
+import { Helmet } from "react-helmet";
+
 
 const Skills = () => {
     return (
         <>
-            <PageTitle title='Protfolio-Skills' />
+            <Helmet><title>Protfolio-Skils</title></Helmet>
             <section className="skills mt-36">
                 <h2 className="text-6xl text-center pt-10 mb-10">My <span>Skills</span></h2>
                 {/* <div className="skills-row mt-12">

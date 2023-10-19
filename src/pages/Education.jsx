@@ -1,10 +1,11 @@
 import { SlCalender } from 'react-icons/sl';
-import PageTitle from '../components/PageTitle';
+
+import { Helmet } from 'react-helmet';
 
 const Education = () => {
     return (
         <>
-            <PageTitle title='Protfolio-Education' />
+          <Helmet><title>Protfolio-Education</title></Helmet>
             <section className="education mt-44">
                 <h2 className="text-5xl text-center mt-10 mb-28">My <span>Journey</span></h2>
                 <div className="education-row flex flex-wrap gap-20">

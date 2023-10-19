@@ -1,11 +1,11 @@
-import React from "react";
-import PageTitle from "../../components/PageTitle";
+
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet";
 
 const Project = () => {
   return (
     <>
-      <PageTitle title="Protfolio-Project" />
+      <Helmet><title>Protfolio-Project</title></Helmet>
       <section className="education mt-44">
         <h2 className="text-5xl text-center mt-10 mb-28">
           My <span>Projects</span>

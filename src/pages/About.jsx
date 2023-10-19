@@ -1,10 +1,11 @@
-import PageTitle from "../components/PageTitle";
+import { Helmet } from "react-helmet";
+
 
 
 const About = () => {
     return (
         <>
-        <PageTitle title='Protfolio-About'/>
+        <Helmet><title>Protfolio-About</title></Helmet>
             <section className="about flex justify-between items-center flex-col gap-8 mt-60 pt-10 ">
                 <h2 className="text-5xl font-bold mb-5">About <span>Me</span></h2>
                 <div className="about-img relative flex justify-center items-center">
