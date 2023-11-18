@@ -284,6 +284,10 @@ span {
 
 .education-row .education-col {
   flex: 1 1 40rem;
+
+}
+ .image img{
+  height: 300px;
 }
 
 .education-col .title {
